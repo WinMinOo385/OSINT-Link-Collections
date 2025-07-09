@@ -1,4 +1,7 @@
-import json, os, argparse
+import json
+import os
+import argparse
+import sys
 from datetime import datetime
 from rich.console import Console
 from rich.table import Table
@@ -18,6 +21,15 @@ def save_data(data):
 # === CRUD ===
 def add(args):
     data = load_data()
+    
+    # Handle stdin if no link provided
+    if not args.link and not sys.stdin.isatty():
+        args.link = sys.stdin.read().strip()
+    
+    if not args.link:
+        console.print("[red]✗ No link provided[/red]")
+        return
+        
     if any(e['link'] == args.link for e in data):
         console.print(f"[red]✗ Entry for {args.link} already exists[/red]")
         return
@@ -68,6 +80,15 @@ def edit(args):
 
 def rm(args):
     data = load_data()
+    
+    # Handle stdin if no link provided
+    if not args.link and not sys.stdin.isatty():
+        args.link = sys.stdin.read().strip()
+    
+    if not args.link:
+        console.print("[red]✗ No link provided[/red]")
+        return
+
     new_data = [e for e in data if e["link"] != args.link]
     if len(new_data) == len(data):
         console.print(f"[red]✗ No entry found for {args.link}[/red]")
@@ -131,7 +152,7 @@ def main():
 
     # Add
     p_add = sub.add_parser("add", help="Add new link")
-    p_add.add_argument("-l", "--link", required=True)
+    p_add.add_argument("-l", "--link", help="Link URL (or read from stdin)")
     p_add.add_argument("-n", "--name", required=True)
     p_add.add_argument("-d", "--desc", required=True)
     p_add.add_argument("-t", "--type", required=True)
@@ -153,7 +174,7 @@ def main():
 
     # Remove
     p_rm = sub.add_parser("rm", help="Remove a link")
-    p_rm.add_argument("-l", "--link", required=True)
+    p_rm.add_argument("-l", "--link", help="Link URL to remove (or read from stdin)")
     p_rm.set_defaults(func=rm)
 
     # Find
