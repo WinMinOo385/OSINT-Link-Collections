@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 import os
 import argparse
@@ -6,8 +7,10 @@ from datetime import datetime
 from rich.console import Console
 from rich.table import Table
 from collections import defaultdict
+from cohere import ClientV2
 
-DATA_FILE = "links.json"
+DATA_FILE = "/home/redhoddie/Script/olc/links.json"
+COHERE_API_KEY = "YOUR_API_KEY"  # Replace with your actual API key or use environment variable
 console = Console()
 
 # === Utilities ===
@@ -17,6 +20,63 @@ def load_data():
 def save_data(data):
     with open(DATA_FILE, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+def analyze_website(link):
+    """Use Cohere AI to analyze and classify the website"""
+    client = ClientV2(api_key=COHERE_API_KEY)
+    
+    prompt = f"""Act as a website classifier and OSINT metadata formatter. Analyze this website: {link}
+
+Return a structured JSON object with these rules:
+1. Replace spaces in values with dashes.
+2. rating_count must be 0.
+3. cost must be "free", "paid", or "paid,free".
+4. api_available must be true or false.
+5. Use lowercase for all values.
+6. Include relevant user roles.
+
+Format:
+```json
+{{
+  "link": "<link>",
+  "name": "<name>",
+  "description": "<description>",
+  "type": "<main-type>",
+  "subtypes": ["subtype1"],
+  "tags": ["tag1"],
+  "roles": ["role1"],
+  "language": "en",
+  "cost": "free",
+  "requires_account": true,
+  "data_types": ["data-type"],
+  "api_available": false,
+  "metrics": {{"rating": 0.0, "rating_count": 0}}
+}}
+```"""
+
+    try:
+        response = client.chat_stream(
+            model="command-a-03-2025",
+            messages=[{"role": "user", "content": [{"type": "text", "text": prompt}]}],
+            temperature=0.3
+        )
+        
+        # Collect the full response
+        full_response = ""
+        for event in response:
+            if event.type == "content-delta":
+                full_response += event.delta.message.content.text
+        
+        # Extract JSON from response
+        json_start = full_response.find('{')
+        json_end = full_response.rfind('}') + 1
+        json_str = full_response[json_start:json_end]
+        
+        return json.loads(json_str)
+    
+    except Exception as e:
+        console.print(f"[red]✗ Error analyzing website: {str(e)}[/red]")
+        return None
 
 # === CRUD ===
 def add(args):
@@ -33,6 +93,24 @@ def add(args):
     if any(e['link'] == args.link for e in data):
         console.print(f"[red]✗ Entry for {args.link} already exists[/red]")
         return
+
+    # If only link is provided, use AI to generate metadata
+    if args.link and not args.name and not args.desc and not args.type:
+        console.print(f"[yellow]⚡ Analyzing {args.link} with AI...[/yellow]")
+        ai_data = analyze_website(args.link)
+        if ai_data:
+            args.name = ai_data.get('name', '')
+            args.desc = ai_data.get('description', '')
+            args.type = ai_data.get('type', '')
+            args.sub = ai_data.get('subtypes', [])
+            args.tags = ",".join(ai_data.get('tags', []))
+            args.roles = ",".join(ai_data.get('roles', []))
+            args.lang = ai_data.get('language', 'en')
+            args.cost = ai_data.get('cost', 'free')
+            args.account = str(ai_data.get('requires_account', False))
+            args.data_types = ",".join(ai_data.get('data_types', []))
+            args.api = str(ai_data.get('api_available', False))
+            args.rating = str(ai_data.get('metrics', {}).get('rating', 0.0))
 
     entry = {
         "link": args.link,
@@ -195,15 +273,15 @@ def view_details(args):
 
 # === CLI Setup ===
 def main():
-    parser = argparse.ArgumentParser(description="🔗 OSINT Link Manager")
+    parser = argparse.ArgumentParser(description="🔗 OSINT Link Manager with AI Classification")
     sub = parser.add_subparsers(title="Commands")
 
-    # Add
-    p_add = sub.add_parser("add", help="Add new link")
+    # Add command with AI capabilities
+    p_add = sub.add_parser("add", help="Add new link (use AI if only link is provided)")
     p_add.add_argument("-l", "--link", help="Link URL (or read from stdin)")
-    p_add.add_argument("-n", "--name", required=True, help="Name of the resource")
-    p_add.add_argument("-d", "--desc", required=True, help="Description")
-    p_add.add_argument("-t", "--type", required=True, help="Main type/category")
+    p_add.add_argument("-n", "--name", help="Name of the resource (AI will generate if not provided)")
+    p_add.add_argument("-d", "--desc", help="Description (AI will generate if not provided)")
+    p_add.add_argument("-t", "--type", help="Main type/category (AI will generate if not provided)")
     p_add.add_argument("--sub", nargs="+", help="One or more subtypes")
     p_add.add_argument("--tags", help="Comma-separated tags")
     p_add.add_argument("--roles", help="Comma-separated user roles")  
