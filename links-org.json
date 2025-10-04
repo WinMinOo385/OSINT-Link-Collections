@@ -1,0 +1,2242 @@
+[
+  {
+    "link": "https://jsoncrack.com/editor",
+    "name": "JSON Crack",
+    "description": "Online JSON Visuallizer",
+    "type": "online_tool",
+    "subtypes": [
+      "json, xml, yaml, csv, graph"
+    ],
+    "tags": [
+      "json"
+    ],
+    "roles": [
+      "developer",
+      " data-analysis"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [],
+    "api_available": false,
+    "metrics": {
+      "rating": 3.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-09T15:31:03.312922",
+    "date_updated": "2025-07-10T09:41:24.282308"
+  },
+  {
+    "link": "https://github.com/payloadbox",
+    "name": "Payload Box",
+    "description": "Attack payloads only 📦",
+    "type": "link-collection",
+    "subtypes": [
+      "xss, command-injection, xxe, sqlinjection, rfi-lfi"
+    ],
+    "tags": [
+      "payloads"
+    ],
+    "roles": [
+      "hacker"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [],
+    "api_available": false,
+    "metrics": {
+      "rating": 3.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T00:17:58.688891",
+    "date_updated": "2025-07-11T13:05:13.198399"
+  },
+  {
+    "link": "https://securitytoolkit.github.io/",
+    "name": "Security Tool Kit",
+    "description": "This toolkit is an interactive cheat sheet, containing a useful list of mostly offensive security tools to be used in penetration testing or red teaming exercises.",
+    "type": "cmd_list",
+    "subtypes": [],
+    "tags": [
+      "cheatsheet"
+    ],
+    "roles": [
+      "redteam",
+      " cyber-security",
+      " hacker",
+      " pentester"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [],
+    "api_available": false,
+    "metrics": {
+      "rating": 2.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T00:26:44.390449",
+    "date_updated": "2025-07-10T00:33:33.372473"
+  },
+  {
+    "link": "https://0day.today/",
+    "name": "0day Today",
+    "description": "the ultimate database of exploits and vulnerabilities and a great resource for vulnerability researchers and security professionals.",
+    "type": "research",
+    "subtypes": [
+      "vulndb, exploitdb"
+    ],
+    "tags": [
+      "exploitdb"
+    ],
+    "roles": [
+      "redteam",
+      " cyber-security",
+      " hacker",
+      " pentester"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [],
+    "api_available": false,
+    "metrics": {
+      "rating": 2.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T00:31:47.033836",
+    "date_updated": "2025-07-10T00:39:42.347479"
+  },
+  {
+    "link": "https://pentesttools.net/",
+    "name": "Pentest Tools",
+    "description": "Penetration Testing Tools. Cyber Security and Technology News.",
+    "type": "articles",
+    "subtypes": [
+      "blogs, writeup, tutorials"
+    ],
+    "tags": [
+      "articles"
+    ],
+    "roles": [
+      "redteam",
+      " cyber-security",
+      " hacker",
+      " pentester",
+      " blueteam"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [],
+    "api_available": false,
+    "metrics": {
+      "rating": 3.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T00:39:19.572182",
+    "date_updated": "2025-07-10T00:42:51.392602"
+  },
+  {
+    "link": "https://alison.com/",
+    "name": "Alison",
+    "description": "Free online learning platform offering courses in various fields such as IT, business, language, health, and more.",
+    "type": "Learning",
+    "subtypes": [
+      "Courses",
+      "Certifications",
+      "Diplomas",
+      "Skill Training"
+    ],
+    "tags": [
+      "online learning",
+      "free courses",
+      "certification",
+      "career development",
+      "education"
+    ],
+    "roles": [
+      "students",
+      "job seekers",
+      "professionals",
+      "educators",
+      "career changers"
+    ],
+    "language": "en",
+    "cost": "free, paid",
+    "requires_account": true,
+    "data_types": [
+      "name",
+      "email",
+      "learning history",
+      "progress data"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 4.6,
+      "rating_count": 100000
+    }
+  },
+  {
+    "link": "https://www.udemy.com/",
+    "name": "Udemy",
+    "description": "Online learning and teaching marketplace with over 200,000 courses in programming, business, design, and more.",
+    "type": "Learning",
+    "subtypes": [
+      "Courses",
+      "Certifications",
+      "Video Tutorials",
+      "Skill Training"
+    ],
+    "tags": [
+      "online learning",
+      "paid courses",
+      "self-paced",
+      "career development",
+      "education",
+      "tech",
+      "business"
+    ],
+    "roles": [
+      "students",
+      "professionals",
+      "trainers",
+      "freelancers",
+      "job seekers"
+    ],
+    "language": "en",
+    "cost": "paid, free",
+    "requires_account": true,
+    "data_types": [
+      "name",
+      "email",
+      "payment info",
+      "learning history",
+      "course progress"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 4.5,
+      "rating_count": 0
+    }
+  },
+  {
+    "link": "https://www.edx.org/",
+    "name": "edX",
+    "description": "Global online learning platform offering university-level courses in a wide range of disciplines, including computer science, business, and humanities.",
+    "type": "learning",
+    "subtypes": [
+      "online-courses",
+      "certifications",
+      "micro-degrees",
+      "professional-programs"
+    ],
+    "tags": [
+      "online-learning",
+      "university-courses",
+      "career-development",
+      "certificates",
+      "higher-education"
+    ],
+    "roles": [
+      "students",
+      "professionals",
+      "educators",
+      "job-seekers"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "name",
+      "email",
+      "course-progress",
+      "payment-info"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 4.7,
+      "rating_count": 0
+    }
+  },
+  {
+    "link": "https://mastodon.social/",
+    "name": "Mastodon",
+    "description": "Decentralized, open-source social networking platform that allows users to host their own servers and interact across the network.",
+    "type": "social-network",
+    "subtypes": [
+      "microblogging",
+      "federated-platform",
+      "open-source"
+    ],
+    "tags": [
+      "decentralized",
+      "social-media",
+      "federation",
+      "privacy-focused",
+      "open-source"
+    ],
+    "roles": [
+      "general-public",
+      "privacy-advocates",
+      "developers",
+      "activists",
+      "communities"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "username",
+      "email",
+      "posts",
+      "followers",
+      "profile-info"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 4.5,
+      "rating_count": 0
+    }
+  },
+  {
+    "link": "https://shodan.io",
+    "name": "shodan",
+    "description": "a-search-engine-for-internet-connected-devices,-providing-insights-into-exposed-systems-and-services",
+    "type": "search-engine",
+    "subtypes": [
+      "iot-search",
+      "cybersecurity-tool"
+    ],
+    "tags": [
+      "iot",
+      "cybersecurity",
+      "network-scanning"
+    ],
+    "roles": [
+      "security-researcher",
+      "network-administrator",
+      "developer",
+      "pentester"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "device-metadata",
+      "network-services",
+      "vulnerabilities"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T13:05:31.259465",
+    "date_updated": "2025-07-10T13:05:31.259488"
+  },
+  {
+    "link": "https://google.com",
+    "name": "Google",
+    "description": "The World Used Search Engine",
+    "type": "SearchEngine",
+    "subtypes": [],
+    "tags": [],
+    "roles": [],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T13:10:35.568445",
+    "date_updated": "2025-07-10T13:10:35.568459"
+  },
+  {
+    "link": "https://bing.com",
+    "name": "bing",
+    "description": "a-search-engine-owned-by-microsoft-offering-web,-image,-video,-and-news-search-capabilities",
+    "type": "search-engine",
+    "subtypes": [
+      "web-search",
+      "image-search",
+      "video-search",
+      "news-search"
+    ],
+    "tags": [
+      "microsoft",
+      "search",
+      "online-tools"
+    ],
+    "roles": [
+      "general-user",
+      "researcher",
+      "student",
+      "professional"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "search-results",
+      "images",
+      "videos",
+      "news-articles"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T13:11:33.421931",
+    "date_updated": "2025-07-10T13:11:33.421954"
+  },
+  {
+    "link": "https://cryptohack.org/",
+    "name": "cryptohack",
+    "description": "an-educational-platform-for-learning-cryptography-through-challenges-and-ctf-style-problems",
+    "type": "educational-platform",
+    "subtypes": [
+      "ctf",
+      "cryptography-learning"
+    ],
+    "tags": [
+      "cryptography",
+      "ctf",
+      "education",
+      "challenges"
+    ],
+    "roles": [
+      "student",
+      "educator",
+      "security-enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "cryptographic-challenges",
+      "educational-content"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T19:48:47.348929",
+    "date_updated": "2025-07-10T19:48:47.348952"
+  },
+  {
+    "link": "https://chatgpt.com/",
+    "name": "chatgpt",
+    "description": "an-ai-language-model-powered-chatbot-developed-by-openai-for-natural-language-conversations",
+    "type": "ai-chatbot",
+    "subtypes": [
+      "conversational-ai",
+      "language-model"
+    ],
+    "tags": [
+      "ai",
+      "chatbot",
+      "openai",
+      "gpt"
+    ],
+    "roles": [
+      "user",
+      "developer",
+      "researcher"
+    ],
+    "language": "en",
+    "cost": "free,paid",
+    "requires_account": true,
+    "data_types": [
+      "text",
+      "conversation-history"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-10T19:50:08.195343",
+    "date_updated": "2025-07-10T19:50:08.195366"
+  },
+  {
+    "link": "https://github.com/00xBAD/awesome-list",
+    "name": "awesome-list",
+    "description": "a-curated-list-of-awesome-lists",
+    "type": "link-collection",
+    "subtypes": [
+      "curated-list",
+      "open-source"
+    ],
+    "tags": [
+      "awesome",
+      "list",
+      "resources",
+      "github"
+    ],
+    "roles": [
+      "developer",
+      "researcher",
+      "student",
+      "enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "links"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-11T12:49:49.536562",
+    "date_updated": "2025-07-11T13:07:29.917803"
+  },
+  {
+    "link": "https://itpec.org/",
+    "name": "itpec-international-technologist-certification",
+    "description": "itpec-provides-international-certification-for-it-professionals-to-validate-skills-and-knowledge-in-various-technologies.",
+    "type": "certification",
+    "subtypes": [
+      "it-certification"
+    ],
+    "tags": [
+      "certification",
+      "it",
+      "technology",
+      "professional-development"
+    ],
+    "roles": [
+      "it-professional",
+      "student",
+      "educator",
+      "employer"
+    ],
+    "language": "en",
+    "cost": "paid",
+    "requires_account": true,
+    "data_types": [
+      "certification-records",
+      "exam-details"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-11T13:22:11.929296",
+    "date_updated": "2025-07-11T13:22:11.929321"
+  },
+  {
+    "link": "https://novita.ai/",
+    "name": "novita.ai",
+    "description": "ai-powered-image-generation-and-editing-platform",
+    "type": "ai-tools",
+    "subtypes": [
+      "image-generation",
+      "image-editing"
+    ],
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "image-processing",
+      "creative-tools"
+    ],
+    "roles": [
+      "artist",
+      "designer",
+      "developer",
+      "hobbyist"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "images",
+      "prompts"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 4.8,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-11T18:54:32.602997",
+    "date_updated": "2025-07-11T18:57:35.726729"
+  },
+  {
+    "link": "https://www.anthropic.com/",
+    "name": "anthropic",
+    "description": "anthropic-is-an-ai-safety-and-research-company-focused-on-building-reliable-interpretable-and-steerable-ai-systems",
+    "type": "ai-research",
+    "subtypes": [
+      "ai-safety",
+      "machine-learning"
+    ],
+    "tags": [
+      "artificial-intelligence",
+      "research",
+      "ai-alignment"
+    ],
+    "roles": [
+      "researcher",
+      "developer",
+      "data-scientist",
+      "ai-enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "research-papers",
+      "blog-posts",
+      "company-information"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-11T18:56:35.461924",
+    "date_updated": "2025-07-11T18:56:35.461965"
+  },
+  {
+    "link": "https://darkforums.st/",
+    "name": "darkforums",
+    "description": "a-forum-dedicated-to-discussing-various-topics-related-to-the-dark-web-and-anonymous-communication",
+    "type": "forum",
+    "subtypes": [
+      "dark-web-discussion",
+      "anonymous-communication"
+    ],
+    "tags": [
+      "dark-web",
+      "privacy",
+      "security",
+      "anonymity"
+    ],
+    "roles": [
+      "user",
+      "moderator",
+      "administrator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "user-generated-content",
+      "discussion-threads"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-12T09:25:03.164391",
+    "date_updated": "2025-07-12T09:25:03.164416"
+  },
+  {
+    "link": "https://app.tuta.com/",
+    "name": "tuta-mail",
+    "description": "secure-and-encrypted-email-service-with-a-focus-on-privacy",
+    "type": "email-service",
+    "subtypes": [
+      "encrypted-email",
+      "privacy-focused"
+    ],
+    "tags": [
+      "security",
+      "encryption",
+      "privacy"
+    ],
+    "roles": [
+      "individual",
+      "professional",
+      "privacy-enthusiast"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "email",
+      "contacts",
+      "calendar"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-12T09:25:34.671272",
+    "date_updated": "2025-07-12T09:25:34.671301"
+  },
+  {
+    "link": "https://pornhub.com/",
+    "name": "pornhub",
+    "description": "adult-content-sharing-platform",
+    "type": "adult-entertainment",
+    "subtypes": [
+      "video-sharing"
+    ],
+    "tags": [
+      "adult",
+      "nsfw",
+      "video"
+    ],
+    "roles": [
+      "viewer",
+      "uploader",
+      "subscriber"
+    ],
+    "language": "en",
+    "cost": "free,paid",
+    "requires_account": false,
+    "data_types": [
+      "video",
+      "images",
+      "user-generated-content"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T10:44:11.665301",
+    "date_updated": "2025-07-13T10:44:11.665324"
+  },
+  {
+    "link": "https://github.com/Xero-Zero/KnowledgeSharing/",
+    "name": "knowledgesharing",
+    "description": "a-repository-for-sharing-knowledge-and-resources",
+    "type": "repository",
+    "subtypes": [
+      "code-sharing",
+      "educational-resources"
+    ],
+    "tags": [
+      "github",
+      "open-source",
+      "knowledge-base"
+    ],
+    "roles": [
+      "developer",
+      "learner",
+      "contributor"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "code",
+      "documentation",
+      "tutorials"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T12:59:29.367367",
+    "date_updated": "2025-07-13T12:59:29.367419"
+  },
+  {
+    "link": "https://overthewire.org/",
+    "name": "overthewire",
+    "description": "a-site-offering-series-of-security-and-programming-challenges-for-learning-and-practicing-skills",
+    "type": "education",
+    "subtypes": [
+      "cybersecurity-training",
+      "programming-challenges"
+    ],
+    "tags": [
+      "ctf",
+      "hacking",
+      "linux",
+      "security",
+      "learning"
+    ],
+    "roles": [
+      "student",
+      "enthusiast",
+      "professional",
+      "educator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "challenges",
+      "tutorials",
+      "forums"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T13:11:59.482498",
+    "date_updated": "2025-07-13T13:11:59.482521"
+  },
+  {
+    "link": "https://codepen.io/",
+    "name": "codepen",
+    "description": "an-online-community-for-testing-and-showcasing-user-created-html,-css,-and-javascript-code-snippets",
+    "type": "code-editor",
+    "subtypes": [
+      "frontend-development",
+      "code-playground"
+    ],
+    "tags": [
+      "coding",
+      "web-development",
+      "frontend",
+      "community"
+    ],
+    "roles": [
+      "developer",
+      "designer",
+      "educator",
+      "student"
+    ],
+    "language": "en",
+    "cost": "free,paid",
+    "requires_account": true,
+    "data_types": [
+      "code-snippets",
+      "projects",
+      "user-profiles"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T13:15:47.495894",
+    "date_updated": "2025-07-13T13:15:47.495918"
+  },
+  {
+    "link": "https://vulners.com/",
+    "name": "vulners",
+    "description": "vulners-is-a-vulnerability-intelligence-service-that-provides-a-comprehensive-database-of-security-vulnerabilities-and-exploits.",
+    "type": "security-database",
+    "subtypes": [
+      "vulnerability-database",
+      "exploit-database"
+    ],
+    "tags": [
+      "cybersecurity",
+      "vulnerability-management",
+      "threat-intelligence"
+    ],
+    "roles": [
+      "security-researcher",
+      "pentester",
+      "it-administrator",
+      "developer"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "vulnerability-data",
+      "exploit-data",
+      "security-advisories"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T13:31:14.053857",
+    "date_updated": "2025-07-13T13:31:14.053904"
+  },
+  {
+    "link": "https://domoticx.com/",
+    "name": "domoticx",
+    "description": "a-platform-for-smart-home-automation",
+    "type": "smart-home",
+    "subtypes": [
+      "home-automation",
+      "iot"
+    ],
+    "tags": [
+      "smart-home",
+      "automation",
+      "iot"
+    ],
+    "roles": [
+      "user",
+      "developer",
+      "administrator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "device-data",
+      "user-preferences"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:27:57.512498",
+    "date_updated": "2025-07-13T14:27:57.512522"
+  },
+  {
+    "link": "https://fineartteens.com/",
+    "name": "fineartteens",
+    "description": "a-website-focused-on-fine-art-and-teen-related-content",
+    "type": "adult-content",
+    "subtypes": [
+      "erotica",
+      "artistic-nudity"
+    ],
+    "tags": [
+      "adult",
+      "art",
+      "teens"
+    ],
+    "roles": [
+      "viewer",
+      "subscriber"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "images",
+      "videos"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:03.320245",
+    "date_updated": "2025-07-13T14:28:03.320268"
+  },
+  {
+    "link": "https://myolay1997.blogspot.com/",
+    "name": "myolay1997",
+    "description": "personal-blog-with-varied-topics",
+    "type": "blog",
+    "subtypes": [
+      "personal-blog"
+    ],
+    "tags": [
+      "lifestyle",
+      "travel",
+      "opinions"
+    ],
+    "roles": [
+      "reader",
+      "commenter"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "images"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:09.608875",
+    "date_updated": "2025-07-13T14:28:09.608901"
+  },
+  {
+    "link": "https://www.geocreepy.com/",
+    "name": "geocreepy",
+    "description": "a-platform-for-geocaching-and-creepy-stories",
+    "type": "entertainment",
+    "subtypes": [
+      "geocaching",
+      "storytelling"
+    ],
+    "tags": [
+      "geocaching",
+      "horror-stories",
+      "community"
+    ],
+    "roles": [
+      "user",
+      "contributor",
+      "administrator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "user-generated-content",
+      "location-data"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:15.688554",
+    "date_updated": "2025-07-13T14:28:15.688579"
+  },
+  {
+    "link": "https://www.mmsecurity.net/",
+    "name": "mmsecurity",
+    "description": "security-services-provider",
+    "type": "security",
+    "subtypes": [
+      "physical-security",
+      "cybersecurity"
+    ],
+    "tags": [
+      "security-solutions",
+      "surveillance",
+      "consulting"
+    ],
+    "roles": [
+      "business-owner",
+      "security-manager",
+      "it-professional"
+    ],
+    "language": "en",
+    "cost": "paid",
+    "requires_account": false,
+    "data_types": [
+      "service-descriptions",
+      "contact-information"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:21.489124",
+    "date_updated": "2025-07-13T14:28:21.489144"
+  },
+  {
+    "link": "https://www.securitytube.net/",
+    "name": "securitytube",
+    "description": "a-platform-for-free-and-paid-it-security-training-videos",
+    "type": "education",
+    "subtypes": [
+      "it-security",
+      "training",
+      "videos"
+    ],
+    "tags": [
+      "cybersecurity",
+      "tutorials",
+      "courses"
+    ],
+    "roles": [
+      "student",
+      "instructor",
+      "enthusiast"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "video-content",
+      "educational-material"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:28.885479",
+    "date_updated": "2025-07-13T14:28:28.885502"
+  },
+  {
+    "link": "https://0xss0rz.github.io/",
+    "name": "0xss0rz-github-page",
+    "description": "a-personal-github-page-focused-on-cybersecurity-and-hacking-resources",
+    "type": "educational",
+    "subtypes": [
+      "cybersecurity",
+      "hacking"
+    ],
+    "tags": [
+      "security-tools",
+      "tutorials",
+      "resources"
+    ],
+    "roles": [
+      "student",
+      "researcher",
+      "pentester",
+      "enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "code",
+      "links"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:35.227088",
+    "date_updated": "2025-07-13T14:28:35.227111"
+  },
+  {
+    "link": "https://accounts.google.com/",
+    "name": "google-accounts",
+    "description": "google's-user-account-management-platform-for-accessing-and-managing-google-services",
+    "type": "account-management",
+    "subtypes": [
+      "authentication",
+      "user-management"
+    ],
+    "tags": [
+      "google",
+      "security",
+      "authentication"
+    ],
+    "roles": [
+      "user",
+      "administrator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "user-profile",
+      "authentication-credentials"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:41.856878",
+    "date_updated": "2025-07-13T14:28:41.856901"
+  },
+  {
+    "link": "https://afsh4ck.gitbook.io/",
+    "name": "afsh4ck-gitbook",
+    "description": "a-gitbook-page-likely-related-to-a-personal-or-project-documentation",
+    "type": "documentation",
+    "subtypes": [
+      "personal-project"
+    ],
+    "tags": [
+      "gitbook",
+      "documentation",
+      "technical-writing"
+    ],
+    "roles": [
+      "developer",
+      "technical-writer",
+      "reader"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "markdown"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:48.602452",
+    "date_updated": "2025-07-13T14:28:48.602475"
+  },
+  {
+    "link": "https://amibreached.com/",
+    "name": "amibreached",
+    "description": "a-service-to-check-if-your-email-has-been-compromised-in-data-breaches",
+    "type": "security",
+    "subtypes": [
+      "data-breach-checker"
+    ],
+    "tags": [
+      "breach-check",
+      "email-security",
+      "privacy"
+    ],
+    "roles": [
+      "user",
+      "security-conscious-individual"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "email-addresses",
+      "breach-data"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:28:55.359058",
+    "date_updated": "2025-07-13T14:28:55.359081"
+  },
+  {
+    "link": "https://android.gadgethacks.com/",
+    "name": "android-gadgethacks",
+    "description": "a-website-offering-android-tutorials,-tips,-and-hacks-for-users-to-customize-and-optimize-their-devices.",
+    "type": "technology-blog",
+    "subtypes": [
+      "android-tutorials",
+      "device-customization"
+    ],
+    "tags": [
+      "android",
+      "hacks",
+      "tutorials",
+      "tech-tips"
+    ],
+    "roles": [
+      "reader",
+      "learner",
+      "tech-enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "articles",
+      "guides",
+      "videos"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:02.944469",
+    "date_updated": "2025-07-13T14:29:02.944493"
+  },
+  {
+    "link": "https://app.cybrary.it/",
+    "name": "cybrary",
+    "description": "online-cybersecurity-education-platform",
+    "type": "education",
+    "subtypes": [
+      "cybersecurity-training"
+    ],
+    "tags": [
+      "cybersecurity",
+      "online-learning",
+      "it-education"
+    ],
+    "roles": [
+      "student",
+      "it-professional",
+      "cybersecurity-enthusiast"
+    ],
+    "language": "en",
+    "cost": "free,paid",
+    "requires_account": true,
+    "data_types": [
+      "educational-content",
+      "user-progress"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:09.803979",
+    "date_updated": "2025-07-13T14:29:09.804002"
+  },
+  {
+    "link": "https://app.diagrams.net/",
+    "name": "diagrams.net",
+    "description": "free-online-diagram-software-for-creating-flowcharts,-process-maps,-uml-diagrams,-org-charts,-and-more.",
+    "type": "productivity",
+    "subtypes": [
+      "diagramming-tool"
+    ],
+    "tags": [
+      "diagrams",
+      "flowcharts",
+      "uml",
+      "wireframes",
+      "collaboration"
+    ],
+    "roles": [
+      "designer",
+      "developer",
+      "project-manager",
+      "student",
+      "educator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "images",
+      "diagrams",
+      "text"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:15.756876",
+    "date_updated": "2025-07-13T14:29:15.756899"
+  },
+  {
+    "link": "https://app.hackinghub.io/",
+    "name": "hackinghub",
+    "description": "a-platform-for-ethical-hacking-and-cybersecurity-tools",
+    "type": "cybersecurity",
+    "subtypes": [
+      "ethical-hacking",
+      "penetration-testing"
+    ],
+    "tags": [
+      "security",
+      "hacking",
+      "tools"
+    ],
+    "roles": [
+      "ethical-hacker",
+      "security-researcher",
+      "developer"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "vulnerability-reports",
+      "exploit-data"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:21.732112",
+    "date_updated": "2025-07-13T14:29:21.732135"
+  },
+  {
+    "link": "https://arttoolkit.github.io/",
+    "name": "arttoolkit",
+    "description": "a-collection-of-tools-for-digital-artists-and-designers",
+    "type": "tools",
+    "subtypes": [
+      "digital-art",
+      "design"
+    ],
+    "tags": [
+      "art",
+      "design",
+      "tools",
+      "github"
+    ],
+    "roles": [
+      "artist",
+      "designer",
+      "developer"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "images",
+      "code"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:27.797116",
+    "date_updated": "2025-07-13T14:29:27.797139"
+  },
+  {
+    "link": "https://asciinema.org/",
+    "name": "asciinema",
+    "description": "record-and-share-your-terminal-sessions",
+    "type": "terminal-recording",
+    "subtypes": [
+      "terminal",
+      "recording",
+      "sharing"
+    ],
+    "tags": [
+      "cli",
+      "tools",
+      "open-source"
+    ],
+    "roles": [
+      "developer",
+      "sysadmin",
+      "technical-user"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "terminal-sessions",
+      "video-recordings"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:35.001272",
+    "date_updated": "2025-07-13T14:29:35.001291"
+  },
+  {
+    "link": "https://astrodevil.medium.com/",
+    "name": "astrodevil-medium",
+    "description": "a-medium-blog-focused-on-technology-and-development",
+    "type": "blog",
+    "subtypes": [
+      "tech-blog",
+      "personal-blog"
+    ],
+    "tags": [
+      "technology",
+      "development",
+      "programming"
+    ],
+    "roles": [
+      "reader",
+      "subscriber"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "articles",
+      "blogs"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:41.943630",
+    "date_updated": "2025-07-13T14:29:41.943653"
+  },
+  {
+    "link": "https://atharvashah.netlify.app/",
+    "name": "atharva-shah-portfolio",
+    "description": "a-personal-portfolio-website-showcasing-skills-projects-and-experience",
+    "type": "portfolio",
+    "subtypes": [
+      "personal-website"
+    ],
+    "tags": [
+      "developer",
+      "designer",
+      "projects"
+    ],
+    "roles": [
+      "developer",
+      "designer",
+      "freelancer"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "images"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:48.770782",
+    "date_updated": "2025-07-13T14:29:48.770806"
+  },
+  {
+    "link": "https://attackdefense.com/",
+    "name": "attackdefense",
+    "description": "hands-on-cyber-range-for-practicing-offensive-and-defensive-security-skills",
+    "type": "cybersecurity-training",
+    "subtypes": [
+      "cyber-range",
+      "security-labs"
+    ],
+    "tags": [
+      "cybersecurity",
+      "training",
+      "offensive-security",
+      "defensive-security"
+    ],
+    "roles": [
+      "student",
+      "professional",
+      "instructor",
+      "security-enthusiast"
+    ],
+    "language": "en",
+    "cost": "paid",
+    "requires_account": true,
+    "data_types": [
+      "training-modules",
+      "labs",
+      "challenges"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:29:55.669682",
+    "date_updated": "2025-07-13T14:29:55.669705"
+  },
+  {
+    "link": "https://beta.hide01.ir/",
+    "name": "beta-hide01-ir",
+    "description": "no-description-available",
+    "type": "unknown",
+    "subtypes": [
+      "unknown"
+    ],
+    "tags": [
+      "unknown"
+    ],
+    "roles": [
+      "user"
+    ],
+    "language": "unknown",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "unknown"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:01.115941",
+    "date_updated": "2025-07-13T14:30:01.115964"
+  },
+  {
+    "link": "https://bios-pw.org/",
+    "name": "bios-pw",
+    "description": "a-placeholder-description-for-the-website",
+    "type": "education",
+    "subtypes": [
+      "biotechnology"
+    ],
+    "tags": [
+      "biology",
+      "open-source"
+    ],
+    "roles": [
+      "student",
+      "researcher",
+      "educator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "educational-resources"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:07.899833",
+    "date_updated": "2025-07-13T14:30:07.899856"
+  },
+  {
+    "link": "https://blackbird-osint.herokuapp.com/",
+    "name": "blackbird-osint",
+    "description": "a-web-application-for-osint-and-reconnaissance-purposes",
+    "type": "osint-tool",
+    "subtypes": [
+      "reconnaissance",
+      "data-gathering"
+    ],
+    "tags": [
+      "osint",
+      "security",
+      "recon"
+    ],
+    "roles": [
+      "security-researcher",
+      "pentester",
+      "investigator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "domain-info",
+      "ip-info",
+      "email-search"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:15.156395",
+    "date_updated": "2025-07-13T14:30:15.156414"
+  },
+  {
+    "link": "https://bloodhound.readthedocs.io/",
+    "name": "bloodhound-documentation",
+    "description": "official-documentation-for-bloodhound-an-active-directory-reconnaissance-tool",
+    "type": "documentation",
+    "subtypes": [
+      "technical-documentation",
+      "cybersecurity-tool"
+    ],
+    "tags": [
+      "active-directory",
+      "reconnaissance",
+      "graph-database",
+      "security-tool"
+    ],
+    "roles": [
+      "developer",
+      "security-researcher",
+      "system-administrator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "documentation",
+      "code-examples"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:22.138279",
+    "date_updated": "2025-07-13T14:30:22.138331"
+  },
+  {
+    "link": "https://book.hacktricks.xyz/",
+    "name": "hacktricks",
+    "description": "a-collection-of-hacking-techniques-and-resources-for-penetration-testing-and-bug-bounty-hunting",
+    "type": "educational-resource",
+    "subtypes": [
+      "cybersecurity",
+      "penetration-testing",
+      "bug-bounty"
+    ],
+    "tags": [
+      "hacking",
+      "security",
+      "pentesting",
+      "bug-bounty",
+      "ctf"
+    ],
+    "roles": [
+      "penetration-tester",
+      "security-researcher",
+      "bug-bounty-hunter",
+      "student"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "tutorials",
+      "techniques"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:29.334416",
+    "date_updated": "2025-07-13T14:30:29.334440"
+  },
+  {
+    "link": "https://books.saturngod.net/",
+    "name": "saturngod-books",
+    "description": "a-website-offering-access-to-digital-books-and-reading-materials",
+    "type": "digital-library",
+    "subtypes": [
+      "e-books",
+      "reading-resources"
+    ],
+    "tags": [
+      "books",
+      "digital-content",
+      "library"
+    ],
+    "roles": [
+      "reader",
+      "visitor"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "pdf",
+      "epub"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:36.203954",
+    "date_updated": "2025-07-13T14:30:36.203987"
+  },
+  {
+    "link": "https://brilliant.org/",
+    "name": "brilliant.org",
+    "description": "interactive-learning-platform-for-math,-science,-and-engineering",
+    "type": "education",
+    "subtypes": [
+      "e-learning",
+      "problem-solving"
+    ],
+    "tags": [
+      "math",
+      "science",
+      "engineering",
+      "education"
+    ],
+    "roles": [
+      "student",
+      "educator",
+      "learner"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "educational-content",
+      "user-progress"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:43.454991",
+    "date_updated": "2025-07-13T14:30:43.455014"
+  },
+  {
+    "link": "https://chatgpt.com/",
+    "name": "chatgpt",
+    "description": "an-ai-language-model-powered-chatbot-developed-by-openai",
+    "type": "ai-chatbot",
+    "subtypes": [
+      "conversational-ai",
+      "language-model"
+    ],
+    "tags": [
+      "ai",
+      "chatbot",
+      "openai",
+      "gpt"
+    ],
+    "roles": [
+      "user",
+      "developer",
+      "researcher"
+    ],
+    "language": "en",
+    "cost": "paid,free",
+    "requires_account": true,
+    "data_types": [
+      "text",
+      "conversation"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:50.368717",
+    "date_updated": "2025-07-13T14:30:50.368740"
+  },
+  {
+    "link": "https://cheat.sh/",
+    "name": "cheat.sh",
+    "description": "unified-access-to-the-best-community-driven-cheat-sheets",
+    "type": "developer-tool",
+    "subtypes": [
+      "cheat-sheets",
+      "code-reference"
+    ],
+    "tags": [
+      "programming",
+      "cli",
+      "productivity"
+    ],
+    "roles": [
+      "developer",
+      "student",
+      "educator",
+      "sysadmin"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "code-snippets",
+      "command-line-tools"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:30:57.036320",
+    "date_updated": "2025-07-13T14:30:57.036343"
+  },
+  {
+    "link": "https://checkmarx.com/",
+    "name": "checkmarx",
+    "description": "a-leading-provider-of-application-security-testing-solutions,-offering-static,-dynamic,-and-interactive-application-security-testing-tools",
+    "type": "application-security",
+    "subtypes": [
+      "static-application-security-testing",
+      "dynamic-application-security-testing",
+      "interactive-application-security-testing"
+    ],
+    "tags": [
+      "appsec",
+      "security-testing",
+      "sast",
+      "dast",
+      "iast"
+    ],
+    "roles": [
+      "developer",
+      "security-engineer",
+      "devops",
+      "ciso"
+    ],
+    "language": "en",
+    "cost": "paid",
+    "requires_account": true,
+    "data_types": [
+      "source-code",
+      "application-vulnerabilities",
+      "security-reports"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:04.282679",
+    "date_updated": "2025-07-13T14:31:04.282703"
+  },
+  {
+    "link": "https://classroom.google.com/",
+    "name": "google-classroom",
+    "description": "a-free-platform-for-schools-that-integrates-with-google-workspace-for-education-to-streamline-assignments-and-communication",
+    "type": "education",
+    "subtypes": [
+      "learning-management-system"
+    ],
+    "tags": [
+      "education",
+      "classroom-management",
+      "google-workspace"
+    ],
+    "roles": [
+      "student",
+      "teacher",
+      "administrator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "user-data",
+      "educational-content"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:11.386688",
+    "date_updated": "2025-07-13T14:31:11.386711"
+  },
+  {
+    "link": "https://code-maven.com/",
+    "name": "code-maven",
+    "description": "a-blog-focused-on-programming-tutorials-and-tech-insights",
+    "type": "blog",
+    "subtypes": [
+      "tech-blog",
+      "programming-tutorials"
+    ],
+    "tags": [
+      "programming",
+      "tutorials",
+      "tech",
+      "software-development"
+    ],
+    "roles": [
+      "developer",
+      "learner",
+      "tech-enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "articles",
+      "tutorials",
+      "code-snippets"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:21.042437",
+    "date_updated": "2025-07-13T14:31:21.042461"
+  },
+  {
+    "link": "https://codetoimg.com/",
+    "name": "code-to-img",
+    "description": "a-tool-to-convert-code-snippets-into-images",
+    "type": "developer-tools",
+    "subtypes": [
+      "code-visualization"
+    ],
+    "tags": [
+      "code",
+      "image-generator",
+      "developer-tools"
+    ],
+    "roles": [
+      "developer",
+      "designer",
+      "content-creator"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "code-snippets",
+      "images"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:27.937359",
+    "date_updated": "2025-07-13T14:31:27.937382"
+  },
+  {
+    "link": "https://cryptohack.org/",
+    "name": "cryptohack",
+    "description": "an-educational-platform-for-learning-cryptography-through-challenges-and-ctf-style-problems",
+    "type": "educational-platform",
+    "subtypes": [
+      "cryptography",
+      "ctf",
+      "challenges"
+    ],
+    "tags": [
+      "cryptography",
+      "security",
+      "learning",
+      "ctf"
+    ],
+    "roles": [
+      "student",
+      "educator",
+      "security-enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "educational-content",
+      "challenge-problems"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:34.262639",
+    "date_updated": "2025-07-13T14:31:34.262664"
+  },
+  {
+    "link": "https://d4n5h.github.io/",
+    "name": "d4n5h's-github-page",
+    "description": "a-personal-github-page-hosting-projects-and-information",
+    "type": "personal-portfolio",
+    "subtypes": [
+      "developer-portfolio",
+      "github-pages"
+    ],
+    "tags": [
+      "github",
+      "programming",
+      "projects"
+    ],
+    "roles": [
+      "developer",
+      "open-source-contributor"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "code-repositories",
+      "project-documentation"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:41.331223",
+    "date_updated": "2025-07-13T14:31:41.331246"
+  },
+  {
+    "link": "https://data.worldbank.org/",
+    "name": "world-bank-data",
+    "description": "open-data-repository-providing-access-to-development-statistics-and-indicators-from-world-bank",
+    "type": "data-repository",
+    "subtypes": [
+      "economic-data",
+      "development-indicators"
+    ],
+    "tags": [
+      "economics",
+      "development",
+      "statistics",
+      "global-data"
+    ],
+    "roles": [
+      "researcher",
+      "analyst",
+      "developer",
+      "policy-maker",
+      "student"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "structured-data",
+      "time-series",
+      "geospatial-data"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:48.432103",
+    "date_updated": "2025-07-13T14:31:48.432126"
+  },
+  {
+    "link": "https://datasetsearch.research.google.com/",
+    "name": "google-dataset-search",
+    "description": "a-search-engine-for-datasets-across-the-web,-enabling-users-to-find-data-for-research-and-analysis.",
+    "type": "data-repository",
+    "subtypes": [
+      "dataset-search-engine"
+    ],
+    "tags": [
+      "data-discovery",
+      "research",
+      "open-data"
+    ],
+    "roles": [
+      "researcher",
+      "data-scientist",
+      "student",
+      "developer"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "structured-data",
+      "unstructured-data",
+      "metadata"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:31:55.217060",
+    "date_updated": "2025-07-13T14:31:55.217083"
+  },
+  {
+    "link": "https://ddosecrets.com/",
+    "name": "ddosecrets",
+    "description": "a-non-profit-organization-dedicated-to-enabling-and-protecting-whistleblowers-and-facilitating-the-safe-disclosure-of-data-of-public-interest",
+    "type": "whistleblower-platform",
+    "subtypes": [
+      "data-leak-repository",
+      "investigative-journalism"
+    ],
+    "tags": [
+      "transparency",
+      "privacy",
+      "security"
+    ],
+    "roles": [
+      "whistleblowers",
+      "journalists",
+      "researchers",
+      "activists"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "leaked-documents",
+      "databases",
+      "public-interest-data"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:32:02.723067",
+    "date_updated": "2025-07-13T14:32:02.723079"
+  },
+  {
+    "link": "https://docs.google.com/",
+    "name": "google-docs",
+    "description": "a-web-based-word-processor-and-document-creation-tool-by-google",
+    "type": "productivity",
+    "subtypes": [
+      "document-editing",
+      "collaboration"
+    ],
+    "tags": [
+      "cloud-based",
+      "word-processing",
+      "real-time-collaboration"
+    ],
+    "roles": [
+      "student",
+      "professional",
+      "educator",
+      "personal-user"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": true,
+    "data_types": [
+      "text",
+      "images",
+      "tables"
+    ],
+    "api_available": true,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:32:09.281892",
+    "date_updated": "2025-07-13T14:32:09.281914"
+  },
+  {
+    "link": "https://docs.python.org/",
+    "name": "python-documentation",
+    "description": "official-documentation-for-python-programming-language",
+    "type": "documentation",
+    "subtypes": [
+      "programming-language-docs"
+    ],
+    "tags": [
+      "python",
+      "programming",
+      "docs",
+      "reference"
+    ],
+    "roles": [
+      "developer",
+      "student",
+      "educator",
+      "researcher"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "text",
+      "code-examples"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:32:15.577115",
+    "date_updated": "2025-07-13T14:32:15.577139"
+  },
+  {
+    "link": "https://ducktoolkit.com/",
+    "name": "ducktoolkit",
+    "description": "a-collection-of-tools-for-duckduckgo-search-enhancement",
+    "type": "search-enhancement",
+    "subtypes": [
+      "browser-extension",
+      "productivity-tool"
+    ],
+    "tags": [
+      "duckduckgo",
+      "search-engine",
+      "privacy"
+    ],
+    "roles": [
+      "end-user",
+      "developer",
+      "privacy-enthusiast"
+    ],
+    "language": "en",
+    "cost": "free",
+    "requires_account": false,
+    "data_types": [
+      "search-queries",
+      "browser-data"
+    ],
+    "api_available": false,
+    "metrics": {
+      "rating": 0.0,
+      "rating_count": 0
+    },
+    "date_collected": "2025-07-13T14:32:21.765936",
+    "date_updated": "2025-07-13T14:32:21.765959"
+  }
+]
