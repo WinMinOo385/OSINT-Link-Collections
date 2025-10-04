@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 from cohere import ClientV2
 
 # Configuration
-DATA_FILE = "/home/redhoddie/Script/olc/links.json"
+DATA_FILE = "./links.json" # Change this to your desired data file path
 console = Console()
 
 # Load API key from environment variable
@@ -137,7 +137,7 @@ def add(args):
     domain = extract_domain(normalized_url)
         
     # Check if domain already exists (compare domains, not full URLs)
-    if any(extract_domain(e['link']) == domain for e in data):
+    if any(e['link'] == args.link for e in data):
         console.print(f"[red]✗ Entry for {domain} already exists[/red]")
         return
 
@@ -214,10 +214,10 @@ def ls(args):
 def edit(args):
     data = load_data()
     search_url = normalize_url(args.link)
-    search_domain = extract_domain(search_url)
+    # search_domain = extract_domain(search_url)
     
     for entry in data:
-        if extract_domain(entry["link"]) == search_domain:
+        if entry["link"] == search_url:
             if args.name: entry["name"] = args.name
             if args.desc: entry["description"] = args.desc
             if args.type: entry["type"] = args.type
@@ -296,10 +296,11 @@ def find(args):
 def view_details(args):
     data = load_data()
     search_url = normalize_url(args.link)
+    print(search_url)
     search_domain = extract_domain(search_url)
     
     for entry in data:
-        if extract_domain(entry["link"]) == search_domain:
+        if entry["link"] == search_url:
             console.print(f"\n[bold cyan]{entry['name']}[/bold cyan]")
             console.print(f"[blue]{entry['link']}[/blue]")
             console.print(f"\n[bold]Description:[/bold] {entry['description']}")

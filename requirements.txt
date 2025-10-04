@@ -1,0 +1,8 @@
+# OLC - OSINT Link Collector
+# Python package dependencies
+
+# AI and Natural Language Processing
+cohere>=5.0.0
+
+# Terminal UI and Formatting
+rich>=13.0.0
